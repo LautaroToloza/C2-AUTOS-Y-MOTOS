@@ -41,7 +41,7 @@ public class Test {
     }
 
     public static void testUno(List auto, List moto) {
-        System.out.println("Lista ordenada por patente \n");
+        System.out.println("Lista ordenada por patente... \n");
         // Autos
         ComparadorAutos ca = new ComparadorAutos();
         Collections.sort(auto, ca);
